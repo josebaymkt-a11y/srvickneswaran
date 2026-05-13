@@ -32,7 +32,7 @@ function ContactPage() {
               <Mail size={18} className="text-[color:var(--gold)] mt-1" />
               <div>
                 <div className="text-[10px] uppercase tracking-[0.3em] text-muted-foreground">Email</div>
-                <a href="mailto:contact@vicksv.com" className="text-foreground hover:text-[color:var(--gold)]">csrvi</a>
+                <a href="mailto:srvickneswaran@gmail.com" className="text-foreground hover:text-[color:var(--gold)]">srvickneswaran@gmail.com</a>
               </div>
             </div>
             <div className="flex items-start gap-4">
