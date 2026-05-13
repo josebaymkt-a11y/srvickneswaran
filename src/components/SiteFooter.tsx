@@ -33,7 +33,7 @@ export function SiteFooter() {
             <a href="mailto:srvickneswaran@gmail.com" className="flex items-center gap-3 hover:text-foreground py-[2px] rounded-none">
               <Mail size={14} /> srvickneswaran@gmail.com
             </a>
-            <a href="#" className="flex items-center gap-3 hover:text-foreground py-[2px] rounded-none">
+            <a href="https://www.linkedin.com/in/vicks-vickneswaran-8775621a" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 hover:text-foreground py-[2px] rounded-none">
               <Linkedin size={14} /> LinkedIn Profile
             </a>
             <div className="text-xs uppercase tracking-[0.25em] pt-2">Dubai · UAE</div>
