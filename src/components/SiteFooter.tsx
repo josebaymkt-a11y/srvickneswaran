@@ -30,10 +30,10 @@ export function SiteFooter() {
             Connect
           </div>
           <div className="mt-5 space-y-3 text-sm text-muted-foreground">
-            <a href="mailto:contact@vicksv.com" className="flex items-center gap-3 hover:text-foreground">
-              <Mail size={14} /> contact@vicksv.com
+            <a href="mailto:contact@vicksv.com" className="flex items-center gap-3 hover:text-foreground py-[2px] rounded-none">
+              <Mail size={14} /> csrvi
             </a>
-            <a href="#" className="flex items-center gap-3 hover:text-foreground">
+            <a href="#" className="flex items-center gap-3 hover:text-foreground py-[2px] rounded-none">
               <Linkedin size={14} /> LinkedIn Profile
             </a>
             <div className="text-xs uppercase tracking-[0.25em] pt-2">Dubai · UAE</div>
