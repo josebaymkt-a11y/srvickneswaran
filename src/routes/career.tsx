@@ -35,18 +35,18 @@ const timeline = [
   },
   {
     org: "HVA Group",
-    role: "Group Chief Officer · Indonesia & Region",
+    role: "Group Finance & Operations Director · Sri Lanka & Region",
     points: [
       "Led group-wide operational transformation across multi-sector portfolio.",
       "Restored receivables discipline — achieving a 90% reduction in aged receivables.",
       "Capital optimization and refinancing across operating subsidiaries.",
+      "Prepared the group for public listing.",
     ],
   },
   {
     org: "Chiyoda Group / Audex",
     role: "Executive Leadership · Sri Lanka & International",
     points: [
-      "Led successful public listing of group entity.",
       "Negotiated and executed hydropower and infrastructure contracts.",
       "Built executive capability across finance, operations and governance.",
     ],
@@ -67,6 +67,14 @@ const metrics = [
   { k: "1", v: "Successful Public Listing", n: "End-to-end capital markets execution" },
   { k: "Multi", v: "Sector Operational Leadership", n: "Industrial, infrastructure, services" },
   { k: "$$", v: "Capital Optimization", n: "Refinancing & balance sheet repair" },
+];
+
+const rolesHeld = [
+  "Chief Executive Officer",
+  "Chief Financial Officer",
+  "Chief Operating Officer",
+  "Head of Human Resources",
+  "General Manager",
 ];
 
 function CareerPage() {
