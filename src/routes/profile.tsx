@@ -34,7 +34,7 @@ function ProfilePage() {
             <div className="mt-8 space-y-3 text-sm text-muted-foreground">
               <div className="flex justify-between border-b border-border/60 pb-2"><span className="uppercase tracking-[0.25em] text-[10px] text-[color:var(--gold)]">Based</span><span>Dubai, UAE</span></div>
               <div className="flex justify-between border-b border-border/60 pb-2"><span className="uppercase tracking-[0.25em] text-[10px] text-[color:var(--gold)]">Tenure</span><span>40+ Years</span></div>
-              <div className="flex justify-between border-b border-border/60 pb-2"><span className="uppercase tracking-[0.25em] text-[10px] text-[color:var(--gold)]">Focus</span><span>Board · Advisory</span></div>
+              <div className="border-b border-border/60 pb-2"><div className="uppercase tracking-[0.25em] text-[10px] text-[color:var(--gold)]">Focus</div><div className="mt-2 text-right text-xs leading-relaxed">Board advisory, executive director and consultant director on a fractional basis — supporting company owners and management boards.</div></div>
             </div>
           </motion.div>
 
@@ -54,11 +54,11 @@ function ProfilePage() {
                 governance under pressure.
               </p>
               <p>
-                He has held the offices of Chief Operating Officer and Chief Financial
-                Officer across organizations operating in the UAE, Singapore, Indonesia
-                and Sri Lanka — and now applies that experience as a board advisor and
-                fractional executive to organizations navigating transformation,
-                turnaround or capital reorganization.
+                He has held the offices of Chief Executive Officer, Chief Operating
+                Officer and Chief Financial Officer across organizations operating in
+                the UAE, Singapore, Indonesia and Sri Lanka — and now applies that
+                experience as a board advisor and fractional executive to organizations
+                navigating transformation, turnaround or capital reorganization.
               </p>
               <p>
                 His perspective is operational as much as financial. Boards rely on him

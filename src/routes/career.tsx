@@ -35,18 +35,18 @@ const timeline = [
   },
   {
     org: "HVA Group",
-    role: "Group Chief Officer · Indonesia & Region",
+    role: "Group Finance & Operations Director · Sri Lanka & Region",
     points: [
       "Led group-wide operational transformation across multi-sector portfolio.",
       "Restored receivables discipline — achieving a 90% reduction in aged receivables.",
       "Capital optimization and refinancing across operating subsidiaries.",
+      "Prepared the group for public listing.",
     ],
   },
   {
     org: "Chiyoda Group / Audex",
     role: "Executive Leadership · Sri Lanka & International",
     points: [
-      "Led successful public listing of group entity.",
       "Negotiated and executed hydropower and infrastructure contracts.",
       "Built executive capability across finance, operations and governance.",
     ],
@@ -69,6 +69,14 @@ const metrics = [
   { k: "$$", v: "Capital Optimization", n: "Refinancing & balance sheet repair" },
 ];
 
+const rolesHeld = [
+  "Chief Executive Officer",
+  "Chief Financial Officer",
+  "Chief Operating Officer",
+  "Head of Human Resources",
+  "General Manager",
+];
+
 function CareerPage() {
   return (
     <div>
@@ -89,6 +97,21 @@ function CareerPage() {
               </div>
             ))}
           </div>
+
+          <div className="mt-20">
+            <div className="text-[10px] uppercase tracking-[0.3em] text-[color:var(--gold)]">Track Record · Executive Roles Held</div>
+            <div className="mt-5 font-display text-2xl md:text-3xl max-w-3xl leading-snug">
+              CEO, CFO, COO, Head of HR and General Manager — across industrial and trading companies.
+            </div>
+            <div className="mt-8 flex flex-wrap gap-3">
+              {rolesHeld.map((r) => (
+                <div key={r} className="border border-[color:var(--gold)]/40 px-5 py-3 text-[11px] uppercase tracking-[0.3em] text-foreground">
+                  {r}
+                </div>
+              ))}
+            </div>
+          </div>
+
 
           <div className="mt-24 relative">
             <div className="absolute left-3 md:left-1/2 top-0 bottom-0 w-px bg-border/60" />
