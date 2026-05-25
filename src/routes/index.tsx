@@ -30,7 +30,7 @@ const expertise = [
   "Crisis Management",
 ];
 
-const credentials = ["FCCA", "FCPA", "CGMA", "FCA Singapore", "FCMA", "UAECA", "MSc Accounting & Finance"];
+const credentials = ["FCA", "FCCA", "FCPA", "CGMA", "FCMA", "MCMI", "UAECA", "MSc Accounting & Finance"];
 
 const geos = [
   { code: "UAE", label: "United Arab Emirates", note: "Diversified conglomerate leadership" },
